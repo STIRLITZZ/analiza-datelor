@@ -11,13 +11,13 @@ Proiecții Predictive pentru Prețurile Mașinilor Mercedes Uzate
   - meredes_luc.csv
     - (aici se află setul de date modificat și pregătit pentru analiză)
 - src/
-  - curatare_date.R
+  - curatare.R
     - (codul sursă pentru curățarea datelor)
-  - modele_liniar.R
+  - regresie-liniara.R
     - (codul sursă pentru modelul de regresie liniară)
-  - modele_random_forest.R
+  - random-forest.R
     - (codul sursă pentru modelul Random Forest)
-  - modele_boosting.R
+  - gradient-boosting.R
     - (codul sursă pentru modelul de Gradient Boosting)
   - grafice.R
     - (codul sursă pentru generarea graficelor simple)
@@ -30,7 +30,7 @@ data/: Aici se află seturile de date utilizate în proiect. merc.csv este setul
 src/: Acest director conține fișierele cu codul sursă pentru diferite aspecte ale proiectului.
 
 curatare_date.R conține codul pentru curățarea și pregătirea datelor.
-modele_liniar.R include codul pentru modelul de regresie liniară.
-modele_random_forest.R conține codul pentru modelul Random Forest.
-modele_boosting.R include codul pentru modelul de Gradient Boosting.
+regresie-liniara.R include codul pentru modelul de regresie liniară.
+random-forest.R conține codul pentru modelul Random Forest.
+gradient-boosting.R include codul pentru modelul de Gradient Boosting.
 grafice.R conține codul pentru generarea graficelor simple, evidențiind relații între variabile și preț.
